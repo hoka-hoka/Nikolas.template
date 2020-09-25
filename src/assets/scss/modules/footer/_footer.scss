@@ -1,0 +1,13 @@
+.footer {
+  position: relative;
+}
+.footer > .container {
+  margin-top: 300px;
+  margin-bottom: 70px;
+  height: unset;
+}
+
+@import "__background/footer__background";
+@import "__bottom/footer__bottom";
+@import "__logo/footer__logo";
+@import "__news/footer__news";

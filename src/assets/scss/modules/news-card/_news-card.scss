@@ -1,0 +1,7 @@
+.news-card {
+  padding: 23px 26px 28px;
+  background: $news-card--bg;
+  height: 145px;
+}
+@import "__date/news-card__date";
+@import "__title/news-card__title";

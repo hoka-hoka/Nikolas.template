@@ -1,0 +1,17 @@
+.news__title {
+  font-size: rem(38);
+  color: $news__title--col;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media(max-width: 1000px) {
+  .news__title {
+    text-shadow: 1px 1px 4px black;
+  }
+}
+@media(max-width: 425px) {
+  .news__title {
+    text-shadow: unset;
+    color: rgb(120,120,120);
+  }
+}

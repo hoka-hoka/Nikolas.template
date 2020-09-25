@@ -1,0 +1,26 @@
+.banner {
+  height: 600px;
+}
+.banner .container {
+  height: unset;
+}
+.banner > .swiper-container {
+  height: 100%;
+}
+@media (max-width: 1100px) {
+  .banner {
+    height: 60vw;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .banner .container {
+    width: 60%;
+  }
+}
+@media (max-width: 425px) {
+  .banner .container{
+    justify-content: unset;
+  }
+}
+@import "__img/banner__img";
+@import "__pick/banner__pick";

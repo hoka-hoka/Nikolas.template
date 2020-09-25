@@ -1,0 +1,8 @@
+.banner-content__btn {
+  margin-bottom: 30px;
+}
+@media(max-width: 425px) {
+  .banner-content__btn {
+    display: none;
+  }
+}

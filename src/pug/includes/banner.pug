@@ -1,0 +1,23 @@
+block banner
+.banner
+  .swiper-container.swiper-container_js
+    .swiper-wrapper
+      each val, i in title
+        .swiper-slide
+          picture.banner__img
+            source.banner__pick(type="image/webp" srcset="assets/img/banner"+i+".webp")
+            source.banner__pick(type="image/jpeg" srcset="assets/img/banner"+i+".jpg")
+            img.banner__pick(src="assets/img/banner"+i+".webp", alt="Лучшие номера")
+          .banner-content.container
+            button.btn.banner-content__btn(type="button")
+              .banner-content__text Смотреть трейлер
+              .arrow.banner-content__arrow
+            span.banner-content__title=val
+      - var i = null
+
+    .banner-pagination.container
+        .banner-pagination__bullet
+    .banner-navigation
+      .banner-navigation__prev.banner-navigation__btn
+      .banner-navigation__next.banner-navigation__btn
+

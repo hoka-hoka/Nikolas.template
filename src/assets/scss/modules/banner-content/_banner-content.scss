@@ -1,0 +1,15 @@
+.banner-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 126px;
+}
+@media(max-width: 768px) {
+  .banner-content {
+    margin-bottom: 80px;
+  }
+}
+@import "__arrow/banner-content__arrow";
+@import "__title/banner-content__title";
+@import "__btn/banner-content__btn";

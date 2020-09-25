@@ -72,7 +72,7 @@ module.exports = function(){
       new CopyPlugin({
         patterns: [
           { from: `${paths.PATHS.src}/${paths.PATHS.assets}img`, to: `${paths.PATHS.assets}img`},
-          // { from: `${paths.PATHS.src}/${paths.PATHS.assets}fonts`, to: `${paths.PATHS.assets}fonts`},
+          { from: `${paths.PATHS.src}/${paths.PATHS.assets}fonts`, to: `${paths.PATHS.assets}fonts`},
           { from: `${paths.PATHS.src}/static`, to: ''},
         ],
         options: { concurrency: 50 },

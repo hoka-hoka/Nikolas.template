@@ -6,7 +6,7 @@ html
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    if ( templates == 'modalWindow' )
+    if ( templates == 'home' )
       base(href="./")
     else
       base(href="../")
@@ -14,6 +14,14 @@ html
 body(id=title)
   each temp in templates
     case temp
-      when "modalWindow"
-        include ../includes/modalWindow
+      when "header"
+        include ../includes/header
+      when "banner"
+        include ../includes/banner
+      when "main"
+        include ../includes/main
+      when "footer"
+        include ../includes/footer
+      when "sprite"
+        include ../../assets/img/svg/sprite.svg
 

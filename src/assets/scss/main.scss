@@ -3,8 +3,8 @@
 @import "utils/fonts";
 @import "utils/mixins";
 @import "utils/normalize";
+@import "utils/templates";
 
-//@import "modules/arrow/arrow";
 
 .visuallyhidden {
   position: absolute;
@@ -18,6 +18,32 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.body {
+  font-family: 'DroidSerif', serif;
+}
 
-@import "modules/dialog-backdrop/dialog-backdrop";
-@import "modules/hidden/hidden";
+@import "modules/header/header";
+@import "modules/container/container";
+@import "modules/logo/logo";
+@import "modules/nav/nav";
+@import "modules/home/home";
+@import "modules/stick/stick";
+@import "modules/pick/pick";
+@import "modules/utils/utils";
+@import "modules/banner/banner";
+@import "modules/banner-navigation/banner-navigation";
+@import "modules/banner-pagination/banner-pagination";
+@import "modules/banner-content/banner-content";
+@import "modules/btn/btn";
+@import "modules/arrow/arrow";
+@import "modules/footer/footer";
+@import "modules/wrapper/wrapper";
+@import "modules/main/main";
+@import "modules/news/news";
+@import "modules/news-card/news-card";
+@import "modules/news-navigation/news-navigation";
+@import "modules/pay/pay";
+@import "modules/social/social";
+@import "modules/about/about";
+@import "modules/about-list/about-list";
+@import "modules/toffee/toffee";

@@ -1,0 +1,11 @@
+.header {
+  background-color: $header--bg;
+  display: flex;
+  height: 57px;
+}
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+@import "__logo/header__logo";
+@import "__utils/header__utils";

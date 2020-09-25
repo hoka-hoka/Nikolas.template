@@ -1,0 +1,23 @@
+.pay {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  align-items: center;
+  justify-items: center;
+  grid-gap: 15px;
+}
+.pay > img {
+  width: unset;
+}
+@media (max-width: 1000px) {
+  .pay {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+}
+@media (max-width: 768px) {
+  .pay {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+  }
+}
+@import "__icon/pay__icon";

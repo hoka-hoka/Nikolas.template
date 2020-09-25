@@ -1,4 +1,22 @@
-// example
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+  font-family: "DroidSerif";
+  src: url("../fonts/DroidSerif/DroidSerif.eot?") format("eot"),
+  url("../fonts/DroidSerif/DroidSerif.woff2") format("woff2"),
+  url("../fonts/DroidSerif/DroidSerif.woff") format("woff"),
+  url("../fonts/DroidSerif/DroidSerif.ttf") format("truetype"),
+  url("../fonts/DroidSerif/DroidSerif.svg#DroidSerif") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PFDinDisplayPro";
+  src: url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.eot?") format("eot"),
+  url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.woff") format("woff"),
+  url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.ttf") format("truetype"),
+  url("../fonts/PFDinDisplayPro/pfdindisplaypro-reg-webfont.svg#pfdindisplaypro-reg-webfont") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
 
 

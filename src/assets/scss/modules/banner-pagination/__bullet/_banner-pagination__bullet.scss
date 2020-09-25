@@ -1,0 +1,16 @@
+.banner-pagination__bullet {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: $banner-pagination__bullet--bg;
+  margin: 0 11px;
+  &:first-child {
+    margin-left: unset;
+  }
+  &:last-child {
+    margin-right: unset;
+  }
+}
+
+@import "_active/banner-pagination__bullet_active";

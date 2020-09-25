@@ -1,5 +1,11 @@
 extends ../layout/main
 
 block variables
-  - var templates = ["modalWindow"];
-  - var title = 'modalWindow';
+  - var templates = ["header", "banner", "main", "footer", "sprite"];
+  - var title = 'home';
+block header
+  - var nav = ["Афиша", "Сеансы", "Акции", "Кинотеатр", "Сиек-бар", "Справка", "Тех. поддержка"];
+block banner
+  -var title = ["Джокер (18+)", "Джокер (18+)"];
+block footer
+  -var data = [["16 ноября 2016", "Ночные сеансы - Фантастические твари и где они обитают (12+)"], ["16 ноября 2016", "Ищем бармена кассира"], ["16 ноября 2016", "Дэвиду Линчу вручили почетный «Оскар» за вклад в кинематограф"], ["16 ноября 2016", "Ищем бармена кассира"]]

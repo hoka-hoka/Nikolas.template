@@ -1,0 +1,35 @@
+block header
+
+header.header
+  .container
+    .logo
+      a.logo__link(href="" tabindex="-1")
+        img.logo__img.header__logo_img-pos(src="assets/img/logo.webp",
+                      alt="киноцентр Россия"
+                      tabindex="0"
+                      role="link")
+    .home
+      .pick.home__pick
+        a.pick__icon(href="")
+          svg(viewBox="0 0 16 14" weight="16" height="14" role="image" aria-label="Главная страница")
+            use(xlink:href="#house")
+    .nav
+      input.nav__input.visuallyhidden(type="checkbox" id="hamburger")
+      label.nav__check(for="hamburger")
+        span
+      ul.nav__list
+        each val in nav
+          li.nav__item
+            a.nav__link(href="")=val
+    .utils.header__utils
+      .pick.utils__pick
+        .stick.pick__stick
+        a.pick__icon(href="")
+          svg(width="18" height="18" viewBox="0 0 18 18" role="image" aria-label="Поиск")
+            use(xlink:href="#search")
+        .stick
+      .pick.utils__pick
+        a.pick__icon(href="")
+          svg(width="18" height="20" viewBox="0 0 18 20" role="image" aria-label="Поиск")
+            use(xlink:href="#user")
+        .stick

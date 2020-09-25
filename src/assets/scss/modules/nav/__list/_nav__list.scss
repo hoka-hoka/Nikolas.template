@@ -1,0 +1,27 @@
+.nav__list {
+  display: flex;
+  height: 100%;
+}
+@media(max-width: 1000px) {
+  .nav__list {
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    background: $nav__list--bg;
+    z-index: 2;
+    top: 54px;
+    right: 0;
+    width: max-content;
+    padding: 20px 30px;
+    border-radius: 0 0 8px 8px;
+    height: 300px;
+    justify-content: space-around;
+    clip-path: inset(0 0 100% 0);
+    transition: .5s ease-in;
+  }
+}
+@media(max-width: 320px) {
+  .nav__list {
+    padding: 20px 19px;
+  }
+}

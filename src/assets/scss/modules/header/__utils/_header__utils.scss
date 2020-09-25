@@ -1,0 +1,8 @@
+.header__utils {
+  margin-left: auto;
+}
+@media(max-width: 1000px) {
+  .header__utils {
+    margin-left: unset;
+  }
+}

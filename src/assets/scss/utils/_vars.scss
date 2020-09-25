@@ -1,7 +1,15 @@
 // Local color
-$mainFont: 'Arial', sans-serif;
+$mainFont: "DroidSerif", serif;
+$secondFont: "PFDinDisplayPro", sans-serif;
 $mainFontSize: 16px;
-// $x-dark: #1F2041;
+
+
+$x-purple-v1: #bf2362;;
+$x-purple-v2: #c01858;
+$x-red: #aa0c48;
+$x-gray: #787878;;
+$x-white: #fff;
+$x-black: #000;
 // $x-dark-100: $x-dark;
 // $x-dark-75: rgba($x-dark, .75);
 // $x-dark-50: rgba($x-dark, .50);
@@ -9,3 +17,22 @@ $mainFontSize: 16px;
 
 // Global color
 
+$arrow--bg: $x-purple-v1;
+
+$banner-pagination__bullet_active--bg: $x-purple-v1;
+$banner-pagination__bullet--bg: $x-white;
+$btn--bg: $x-white;
+$banner-content__title--col: $x-white;
+
+$header--bg: $x-purple-v1;
+
+$nav__link--col: $x-white;
+$nav__link--col_hov: $x-purple-v2;
+$nav__list--bg: $x-purple-v1;
+$news__title--col: $x-white;
+$news-card__date--col: $x-gray;
+$news-card--bg: $x-white;
+$nav__check--bg: $x-white;
+
+$social__icon--bg: $x-black;
+$stick--bg: $x-red;

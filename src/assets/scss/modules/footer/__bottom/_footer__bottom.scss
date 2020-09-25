@@ -1,0 +1,16 @@
+.footer__bottom {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr auto;
+  grid-gap: 70px;
+}
+
+@media(max-width: 1000px) {
+  .footer__bottom {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media(max-width: 768px) {
+  .footer__bottom {
+    grid-gap: 20px;
+  }
+}

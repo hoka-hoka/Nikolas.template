@@ -1,0 +1,20 @@
+.footer__background {
+  background: url("../img/ill.webp") no-repeat;
+  background-position: bottom;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  right: 0;
+  z-index: -1;
+}
+@media(max-width: 1100px) {
+  .footer__background {
+    background-position: 60% bottom;
+  }
+}
+@media(max-width: 425px) {
+  .footer__background {
+    display: none;
+  }
+}

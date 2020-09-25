@@ -1,0 +1,58 @@
+block footer
+
+footer.footer
+  .footer__background
+  .container
+    section.news.footer__news
+      h2.news__title Новости и Акции
+      .swiper-container.news__swiper-container.news__swiper-container_js
+        .swiper-wrapper
+          each val, i in data
+            .swiper-slide.news__swiper-slide
+              picture.news__img
+                source.news__pick(type="image/webp" srcset="assets/img/news"+i+".webp")
+                source.news__pick(type="image/jpeg" srcset="assets/img/news"+i+".jpg")
+                img.news__pick(src="assets/img/news"+i+".webp", alt="Последние новости")
+              .news-card
+                .news-card__date=val[0]
+                .news-card__title=val[1]
+      .news-navigation
+        .news-navigation__prev.news-navigation__btn
+        .news-navigation__next.news-navigation__btn
+    .footer__bottom
+      .logo.footer__logo
+        a.logo__link(href="")
+          img.logo__img(src="assets/img/logo.webp", alt="киноцентр Россия")
+      .pay
+        img.pay__icon(src="assets/img/master-card-secure.webp")
+        img.pay__icon(src="assets/img/master-card.webp")
+        img.pay__icon(src="assets/img/moestro.webp")
+        img.pay__icon(src="assets/img/verified-visa.webp")
+        img.pay__icon(src="assets/img/visa.webp")
+      .social
+        .social__title Мы в соц. сетях:
+        .social__list
+          .social__icon
+            svg(viewBox="0 0 18 18" width="18" height="18")
+              use(xlink:href="#vk")
+          .social__icon
+            svg(viewBox="0 0 18 18" width="18" height="18" )
+              use(xlink:href="#instagram")
+      .about
+        ul.about__list
+          li.about__item.about__item_self-1
+            a.about__link(href="") Карта сайта
+          li.about__item.about__item_self-2
+            a.about__link(href="") Обратная связь
+          li.about__item.about__item_self-3
+            a.about__link(href="") Мобильная версия
+          li.about__item.about__item_self-4
+            a.about__info(href="tel:+1234123456") (1234) 12-34-56,
+            a.about__info(href="mailto:box@mail.ru") box@mail.ru
+            address.about__info г. Город, ул. Улица, Дом № КЦ «Россия»
+          li.about__item.about__item_self-5
+            a.about__link
+              span.about__info Разработка сайта
+            .about__info «Nikolas group»
+
+

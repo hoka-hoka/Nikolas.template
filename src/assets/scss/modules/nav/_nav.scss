@@ -1,0 +1,19 @@
+ .nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+@media(max-width: 1000px) {
+  .nav {
+    position: relative;
+    order: 1;
+    justify-content: center;
+    right: 0;
+    width: 56px;
+  }
+}
+@import "__item/nav__item";
+@import "__list/nav__list";
+@import "__link/nav__link";
+@import "__input/nav__input";
+@import "__check/nav__check";

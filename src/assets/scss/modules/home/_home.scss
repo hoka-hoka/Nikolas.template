@@ -1,0 +1,15 @@
+.home {
+  height: 100%;
+}
+@media(max-width: 1000px) {
+  .home {
+    margin-left: auto;
+  }
+}
+@media(max-width: 425px) {
+  .home {
+    display: none;
+
+  }
+}
+@import "__pick/home__pick";
