@@ -1,4 +1,4 @@
-[Демо](https://hoka-hoka.github.io/Nikolas.template-view "Необязательная подсказка")  
+[Демо](https://hoka-hoka.github.io/Nikolas.test/ "Необязательная подсказка")  
 ### Установка
 
 Установка зависимостей  
