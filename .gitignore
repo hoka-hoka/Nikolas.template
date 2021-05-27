@@ -31,7 +31,4 @@
 # Instead
 # /install/*
 # !install/package.html
-
-/dist/
-
 /node_modules/
